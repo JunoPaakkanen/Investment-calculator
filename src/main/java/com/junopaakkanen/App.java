@@ -4,6 +4,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        ConsoleUI.runAppFlow();
+        ConsoleUI UI = new ConsoleUI();
+        UI.runAppFlow();
     }
 }

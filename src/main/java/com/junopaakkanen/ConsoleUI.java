@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ConsoleUI {
     
-    public static void runAppFlow() {
+    public void runAppFlow() {
         while (true) {
             System.out.println(Messages.EXIT_NOTICE);
             try {
@@ -24,7 +24,7 @@ public class ConsoleUI {
         }
     }
 
-    public static double askForDouble(String message) {
+    public double askForDouble(String message) {
         while (true) {
             System.out.println(message);
             String userInput = InputReader.readInput();
